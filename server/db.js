@@ -1,6 +1,6 @@
 var PouchDB = require('pouchdb');
 
-var db = new PouchDB('flightInfo');
+var db = new PouchDB('http://localhost:5984/flights');
 
 
 
@@ -18,6 +18,15 @@ var getFlightsInfo = function () {
 }
 
 
+//Database information
+db.info(function(err, info) {
+   if (err) {
+      return console.log(err);
+   } else {
+      console.log(info);
+   }
+});
+/*
 db.get('sampleFlightInfo').then(function(doc) {
   return db.put({
     _id: 'sampleFlightInfo',
@@ -33,5 +42,5 @@ db.get('sampleFlightInfo').then(function(doc) {
   console.log(err);
 });
 
-
+*/
 //getFlightsInfo();
