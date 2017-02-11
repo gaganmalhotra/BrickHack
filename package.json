@@ -1,0 +1,19 @@
+{
+  "name": "brickhack",
+  "version": "1.0.0",
+  "description": "RIT hackathon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaganmalhotra/BrickHack.git"
+  },
+  "author": "Gagan, Sumedha, Ramesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaganmalhotra/BrickHack/issues"
+  },
+  "homepage": "https://github.com/gaganmalhotra/BrickHack#readme"
+}
