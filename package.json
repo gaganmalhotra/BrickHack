@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/gaganmalhotra/BrickHack/issues"
   },
-  "homepage": "https://github.com/gaganmalhotra/BrickHack#readme"
+  "homepage": "https://github.com/gaganmalhotra/BrickHack#readme",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "pouchdb": "^6.1.2",
+    "promise": "^7.1.1",
+    "require": "^2.4.20"
+  }
 }
